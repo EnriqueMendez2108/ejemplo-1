@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f4fdf7;
+    color: #2f4f2f;
+}
+
+/* HEADER */
+.spa-header {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #d8f3dc, #b7e4c7);
+}
+
+.spa-header h1 {
+    font-size: 48px;
+    color: #2d6a4f;
+}
+
+.spa-header p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.spa-btn {
+    background: #2d6a4f;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* PRODUCTOS */
+.spa-products {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.spa-products h2 {
+    color: #2d6a4f;
+    font-size: 32px;
+}
+
+.spa-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.spa-card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform .2s;
+}
+
+.spa-card:hover {
+    transform: translateY(-5px);
+}
+
+.spa-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.spa-price {
+    font-size: 20px;
+    color: #2d6a4f;
+    font-weight: bold;
+}
+
+.spa-buy {
+    background: #2d6a4f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* CONTACTO */
+.spa-contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.spa-contact a {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #2d6a4f;
+    text-decoration: none;
+}
+
+/* FOOTER */
+.spa-footer {
+    background: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .spa-header h1 {
+        font-size: 32px;
+    }
+
+    .spa-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+}
